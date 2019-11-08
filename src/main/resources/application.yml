@@ -1,4 +1,8 @@
 spring:
+  application:
+    name: @project.artifactId@
+    version: @project.version@
+    fullname: @project.name@
   datasource:
     url: jdbc:mysql://localhost:3306/demo?createDatabaseIfNotExist=true
     username: root
