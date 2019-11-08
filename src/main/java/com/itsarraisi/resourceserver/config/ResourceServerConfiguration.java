@@ -18,9 +18,6 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 @EnableResourceServer
 public class ResourceServerConfiguration implements ResourceServerConfigurer {
 
-    @Value("${spring.application.name}")
-    private String applicationName;
-
     @Bean
     public JwtAccessTokenConverter accessTokenConverter() {
         JwtAccessTokenConverter converter = new JwtAccessTokenConverter();
