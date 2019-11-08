@@ -1,0 +1,6 @@
+insert into  customer (id, name, email, contact, address)
+    VALUES ('1', 'Abdul Rahman Arraisi','abdul@email.com', '08112345678', 'Bandung');
+insert into  customer (id, name, email, contact, address)
+    VALUES ('2', 'Dhio Alfafian A','dhio@email.com', '08112345678', 'Jakarta');
+insert into  customer (id, name, email, contact, address)
+    VALUES ('3', 'Ahmad Saufi','saufi@email.com', '08112345678', 'Kalimantan');
